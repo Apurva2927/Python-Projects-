@@ -5,7 +5,7 @@ upi_id = input("Enter the UPI ID : ")
 
 #upi://pay?pa=UPI_ID&pn=Name&am=Amount&cu=CURRENCY&tn=MESSAGE 
 
-#Defining the payment URL based on the UPI ID and the payment app 
+#Defining the payment URL based on the UPI ID and the payment apps
 #You can modify these URLs based on the  payment apps you want to support 
 
 phonepe_url = f"upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234"
